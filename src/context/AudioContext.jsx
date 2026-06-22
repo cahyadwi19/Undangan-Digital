@@ -32,7 +32,10 @@ export function AudioProvider({ children }) {
   return (
     <AudioContext.Provider value={{ audioRef, playing, play, pause, toggle }}>
       <audio ref={audioRef} loop>
-        <source src="/music/wedding-song.mp3" type="audio/mp3" />
+        <source
+  src={`${import.meta.env.BASE_URL}music/wedding-song.mp3`}
+  type="audio/mp3"
+/>
       </audio>
       {children}
     </AudioContext.Provider>
