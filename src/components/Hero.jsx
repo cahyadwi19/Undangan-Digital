@@ -4,7 +4,9 @@ export default function Hero() {
   return (
     <section
       className="h-screen bg-cover bg-center relative flex items-center justify-center"
-      style={{ backgroundImage: "url('/images/kopi5.jpg')" }}
+      style={{ 
+        backgroundImage: "url('${import.meta.env.BASE_URL}images/kopi5.jpg')`,
+          }}
     >
       {/* Overlay gradient gelap + tone navy */}
       <div className="absolute inset-0 bg-gradient-to-b from-navy/80 via-navy/60 to-navy" />
