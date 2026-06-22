@@ -91,7 +91,7 @@ export default function RSVP() {
             Doa &amp; Restu
           </p>
           <h2 className="font-script text-4xl" style={{ color: "var(--gold-light)" }}>
-            RSVP &amp; Ucapan
+            Ucapan
           </h2>
         </div>
       </Reveal>
