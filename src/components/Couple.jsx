@@ -20,7 +20,7 @@ export default function Couple() {
           <div className="text-center">
             <div className="ornament-frame inline-block mb-6">
               <img
-                src="/images/bride.jpg"
+                src={`${import.meta.env.BASE_URL}images/bride.jpg`}
                 alt="Khoirul Nisa"
                 className="w-48 h-48 rounded-full mx-auto object-cover border-2 border-gold/60 shadow-lg shadow-black/50"
               />
@@ -44,7 +44,7 @@ export default function Couple() {
           <div className="text-center">
             <div className="ornament-frame inline-block mb-6">
               <img
-                src="/images/groom.jpg"
+                src={`${import.meta.env.BASE_URL}images/groom.jpg`}
                 alt="Indra Jaya"
                 className="w-48 h-48 rounded-full mx-auto object-cover border-2 border-gold/60 shadow-lg shadow-black/50"
               />
