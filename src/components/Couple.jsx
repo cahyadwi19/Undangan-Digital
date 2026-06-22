@@ -1,6 +1,8 @@
 import Reveal from "./Reveal";
 
 export default function Couple() {
+  const base = import.meta.env.BASE_URL;
+
   return (
     <section className="py-24 bg-navy-soft bg-texture px-6">
       <Reveal>
@@ -20,7 +22,7 @@ export default function Couple() {
           <div className="text-center">
             <div className="ornament-frame inline-block mb-6">
               <img
-                src={`${import.meta.env.BASE_URL}images/bride.jpg`}
+                src={`${base}images/bride.jpg`}
                 alt="Khoirul Nisa"
                 className="w-48 h-48 rounded-full mx-auto object-cover border-2 border-gold/60 shadow-lg shadow-black/50"
               />
@@ -44,7 +46,7 @@ export default function Couple() {
           <div className="text-center">
             <div className="ornament-frame inline-block mb-6">
               <img
-                src={`${import.meta.env.BASE_URL}images/groom.jpg`}
+                src={`${base}images/groom.jpg`}
                 alt="Indra Jaya"
                 className="w-48 h-48 rounded-full mx-auto object-cover border-2 border-gold/60 shadow-lg shadow-black/50"
               />
