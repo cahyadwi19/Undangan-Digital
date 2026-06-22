@@ -3,11 +3,12 @@ import { motion, AnimatePresence } from "framer-motion";
 import Reveal from "./Reveal";
 
 export default function Gallery() {
-  const images = [
-    "/images/gallery1.jpg",
-    "/images/gallery2.jpg",
-    "/images/gallery3.jpg",
-  ];
+const base = import.meta.env.BASE_URL;
+const images = [
+  `${base}images/gallery1.jpg`,
+  `${base}images/gallery2.jpg`,
+  `${base}images/gallery3.jpg`,
+];
 
   const [selected, setSelected] = useState(null);
 
