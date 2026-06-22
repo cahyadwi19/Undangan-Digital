@@ -18,7 +18,7 @@ export default function Countdown() {
   return (
     <section
       className="relative py-24 text-center px-4 sm:px-6 bg-cover bg-center"
-      style={{ backgroundImage: `url('${base}images/kopi5.jpg')` }}
+      style={{ backgroundImage: `url('${base}images/gallery3.jpg')` }}
     >
       {/* overlay gelap supaya teks tetap terbaca */}
       <div className="absolute inset-0 bg-navy/80" />
