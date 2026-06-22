@@ -5,7 +5,7 @@ export default function Hero() {
     <section
       className="h-screen bg-cover bg-center relative flex items-center justify-center"
       style={{ 
-        backgroundImage: "url('${import.meta.env.BASE_URL}images/kopi5.jpg')`,
+        backgroundImage: 'url('${import.meta.env.BASE_URL}images/kopi5.jpg')',
           }}
     >
       {/* Overlay gradient gelap + tone navy */}
