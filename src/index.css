@@ -3,6 +3,7 @@
 :root {
   --gold: #c9a35c;
   --gold-light: #e6cb8f;
+  --gold-deep: #b8862e;
   --navy: #05070d;
   --navy-soft: #0c1120;
   --cream: #f3ecdd;
@@ -41,6 +42,10 @@ body {
 
 .bg-gold {
   background-color: var(--gold);
+}
+
+.bg-gold-deep {
+  background: linear-gradient(145deg, var(--gold-light), var(--gold-deep));
 }
 
 .bg-navy {
