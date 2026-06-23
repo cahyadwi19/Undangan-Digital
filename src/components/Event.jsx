@@ -46,34 +46,27 @@ export default function Event() {
                 {event.title}
               </h3>
 
-              {/* Baris tanggal: hari - kotak tanggal - tahun */}
-              <div className="flex items-center justify-center gap-4 w-full mb-2">
-                <div className="flex-1 border-t border-gold/30" />
-                <span className="font-body text-cream/80 text-sm whitespace-nowrap">
+              <div className="flex items-center w-full mb-6">
+                <span className="flex-1 border-t border-gold/30" />
+                <span className="font-body text-cream/80 text-sm whitespace-nowrap px-3">
                   {event.day}
                 </span>
-              </div>
-
-              <div className="flex items-center justify-center gap-4 w-full">
                 <span className="flex-1 border-t border-gold/30" />
 
-                <div className="bg-gold text-navy rounded-lg px-5 py-3 min-w-[88px] shadow-lg shadow-black/30">
+                <div className="bg-gold text-navy rounded-lg px-5 py-3 min-w-[88px] mx-3 shadow-lg shadow-black/30 shrink-0">
                   <p className="font-serif-elegant text-3xl leading-none font-semibold">
                     {event.date}
                   </p>
-                  <p className="font-body text-xs uppercase tracking-wide mt-1">
+                  <p className="font-body text-[11px] uppercase tracking-wide mt-1">
                     {event.month}
                   </p>
                 </div>
 
                 <span className="flex-1 border-t border-gold/30" />
-              </div>
-
-              <div className="flex items-center justify-center gap-4 w-full mt-2 mb-5">
-                <div className="flex-1" />
-                <span className="font-body text-cream/80 text-sm whitespace-nowrap">
+                <span className="font-body text-cream/80 text-sm whitespace-nowrap px-3">
                   {event.year}
                 </span>
+                <span className="flex-1 border-t border-gold/30" />
               </div>
 
               <p className="font-body text-gold text-sm mb-6">{event.time}</p>
@@ -87,14 +80,12 @@ export default function Event() {
                 {event.address}
               </p>
 
-              <a
-                href="https://maps.app.goo.gl/JKtYdu2uYixnGE598"
-                target="_blank"
-                rel= "noopener noreferrer"
-                className="mt-auto inline-block border border-gold text-gold px-6 py-2 rounder-full text-sm tracking-[1px] uppercase transition-colors hover:bg-gold hover:text-navy"
-                >
-              Buka Maps
-            </a>
+              <a href="https://maps.app.goo.gl/JKtYdu2uYixnGE598" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="mt-auto inline-block border border-gold text-gold px-6 py-2 rounded-full text-sm tracking-[1px] uppercase transition-colors hover:bg-gold hover:text-navy">
+                Buka Maps
+              </a>
             </div>
           </Reveal>
         ))}
