@@ -9,7 +9,7 @@ export default function Event() {
       month: "JULI",
       year: "2026",
       time: "16.00 WIB - Selesai",
-      place: "KEDIAMAN MEMPELAI WANITA,
+      place: "KEDIAMAN MEMPELAI WANITA",
       address: "Dsn. Nggunungrejo RT. 007 RW. 002 Ds. Cengkong, Kec. Parengan, Kab. Tuban",
     },
     {
