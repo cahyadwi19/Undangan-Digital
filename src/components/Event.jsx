@@ -4,24 +4,23 @@ export default function Event() {
   const events = [
     {
       title: "Akad Nikah",
-      day: "Minggu",
-      date: "20",
-      month: "Desember",
+      day: "KAMIS",
+      date: "23",
+      month: "JULI",
       year: "2026",
-      time: "08.00 WIB - Selesai",
-      place: "Kediaman Mempelai Wanita",
-      address:
-        "Perumahan Mutiara Sampurna, Desa Jayasampurna, Kabupaten Bekasi, Jawa Barat",
+      time: "16.00 WIB - Selesai",
+      place: "KEDIAMAN MEMPELAI WANITA,
+      address: "Dsn. Nggunungrejo RT. 007 RW. 002 Ds. Cengkong, Kec. Parengan, Kab. Tuban",
     },
     {
       title: "Resepsi",
-      day: "Minggu",
-      date: "20",
-      month: "Desember",
+      day: "JUMAT",
+      date: "25",
+      month: "JULI",
       year: "2026",
       time: "11.00 WIB - Selesai",
-      place: "Gedung ABC Surabaya",
-      address: "Jl. Contoh Alamat No. 1, Surabaya, Jawa Timur",
+      place: "KEDIAMAN MEMPELAI WANITA",
+      address: "Dsn. NggunungRejo RT. 007 RW. 002 Ds. Cengkong, Kec. Parengan, Kab. Tuban",
     },
   ];
 
@@ -53,7 +52,7 @@ export default function Event() {
                 </span>
                 <span className="flex-1 border-t border-gold/30" />
 
-                <div className="bg-gold text-navy rounded-lg px-5 py-3 min-w-[88px] mx-3 shadow-lg shadow-black/30 shrink-0">
+                <div className="bg-gold-deep text-navy rounded-lg px-5 py-3 min-w-[88px] mx-3 shadow-lg shadow-black/40 shrink-0">
                   <p className="font-serif-elegant text-3xl leading-none font-semibold">
                     {event.date}
                   </p>
