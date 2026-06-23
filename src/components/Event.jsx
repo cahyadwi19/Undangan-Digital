@@ -94,7 +94,7 @@ export default function Event() {
                 className="mt-auto inline-block border border-gold text-gold px-6 py-2 rounded-full text-sm tracking-[1px] uppercase transition-colors hover:bg-gold hover:text-navy"
               >
                 Buka Maps
-              </a>
+            </a>
             </div>
           </Reveal>
         ))}
