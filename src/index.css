@@ -39,6 +39,10 @@ body {
   color: var(--gold);
 }
 
+.bg-gold {
+  background-color: var(--gold);
+}
+
 .bg-navy {
   background-color: var(--navy);
 }
