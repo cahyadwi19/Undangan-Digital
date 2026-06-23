@@ -87,7 +87,7 @@ export default function Event() {
                 {event.address}
               </p>
 
-              
+              <a
                 href="https://maps.app.goo.gl/JKtYdu2uYixnGE598"
                 target="_blank"
                 rel= "noopener noreferrer"
