@@ -90,10 +90,10 @@ export default function Event() {
               
                 href="https://maps.app.goo.gl/JKtYdu2uYixnGE598"
                 target="_blank"
-                rel="noopener noreferrer"
-                className="mt-auto inline-block border border-gold text-gold px-6 py-2 rounded-full text-sm tracking-[1px] uppercase transition-colors hover:bg-gold hover:text-navy"
-              >
-                Buka Maps
+                rel= "noopener noreferrer"
+                className="mt-auto inline-block border border-gold text-gold px-6 py-2 rounder-full text-sm tracking-[1px] uppercase transition-colors hover:bg-gold hover:text-navy"
+                >
+              Buka Maps
             </a>
             </div>
           </Reveal>
